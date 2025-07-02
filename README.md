@@ -86,6 +86,7 @@ To create the most engaging and helpful interface for your users, define the fol
         annotations=Annotations(
             beeai_ui=PlatformUIAnnotation(
                 ui_type=PlatformUIType.CHAT,
+                display_name="Chat Agent",
                 user_greeting="Hello! I'm your AI assistant. How can I help you today?",
                 tools=[
                     AgentToolInfo(name="Weather", description=""),
